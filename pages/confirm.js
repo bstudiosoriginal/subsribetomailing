@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import '../app/globals.css'
-const checksvg = './icon-list.svg'
+const checksvg = '/icon-list.svg'
 
 const ConfirmPage = () => {
 
@@ -17,7 +17,7 @@ const ConfirmPage = () => {
     <div className="premaincontent">
         <div className="mainmaincontent2">
         <div className="subcontentone2">
-            <img src={checksvg} width={60} />
+            <img id="side-img" src={checksvg} width={60} />
             <h1 className="headertitle">Thanks for subscribing!</h1>
             <p>
             A confirmation email has been sent to <b>ash@loremcompany.com</b>. Please
