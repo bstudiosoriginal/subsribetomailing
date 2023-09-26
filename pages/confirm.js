@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import '../app/globals.css'
-const checksvg = '/icon-list.svg'
+const checksvg = '../icon-list.svg'
 
 const ConfirmPage = () => {
 
