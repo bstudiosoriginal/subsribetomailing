@@ -33,15 +33,15 @@ function App() {
           <p>Join 60,000+ product managers receiving monthly updates on: </p>
           <ul>
             <li>
-              <img src={checksvg} />
+              <img src={checksvg} alt='check icon'/>
               Product discovery and building what matters
             </li>
             <li>
-              <img src={checksvg} />
+              <img src={checksvg} alt='check icon'/>
               Measuring to ensure updates are a success
             </li>
             <li>
-              <img src={checksvg} />
+              <img src={checksvg} alt='check icon'/>
               And much more
             </li>
           </ul>
@@ -58,7 +58,7 @@ function App() {
           <source media="(max-width: 660px)" srcSet={mobilesvg}/>
           <source media="(min-width: 660px)" srcset={desktopsvg}/>
          
-          <img className='img2' id="main-img" src={desktopsvg} alt="alt text here" />
+          <img className='img2' id="main-img" src={desktopsvg} alt="Main Image" />
         </picture>
           {/* <img
             className='img2'

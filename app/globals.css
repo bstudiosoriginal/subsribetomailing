@@ -74,6 +74,9 @@ body button {
   height: 43px;
   width: 80%;
 }
+body button:hover{
+    background-image: linear-gradient(270deg, hsl(4, 100%, 67%), hsl(339, 72%, 56%));
+}
 .subcontentone {
   flex: 1;
   /* justify-content: center; */
@@ -163,7 +166,9 @@ form button {
   height: 43px;
   
 }
-
+form button:hover{
+  background-image: linear-gradient(270deg, hsl(4, 100%, 67%), hsl(339, 72%, 56%));
+}
 form input {
   padding-left: 12px; 
   padding-right: 12px;

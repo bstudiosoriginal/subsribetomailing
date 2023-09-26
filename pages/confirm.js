@@ -17,7 +17,7 @@ const ConfirmPage = () => {
     <div className="premaincontent">
         <div className="mainmaincontent2">
         <div className="subcontentone2">
-            <img id="side-img" src={checksvg} width={60} />
+            <img id="side-img" src={checksvg} width={60} alt='check icon'/>
             <h1 className="headertitle">Thanks for subscribing!</h1>
             <p>
             A confirmation email has been sent to <b>ash@loremcompany.com</b>. Please
